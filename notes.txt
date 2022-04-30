@@ -1,0 +1,5 @@
+correct syntax of FILTER and MAP:
+
+const filteredMonsters = this.state.monsters.filter((monster) => {
+              return monster.name.includes(event.target.value);
+});
